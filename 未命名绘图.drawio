@@ -73,8 +73,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1bvZFp07xVMngvULJLH7-11" value="&lt;font color=&quot;#717171&quot;&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap;&quot;&gt;&lt;b&gt;数据集&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="35.25" y="110" width="44.75" height="40" as="geometry" />
+        <mxCell id="1bvZFp07xVMngvULJLH7-11" value="&lt;font color=&quot;#717171&quot;&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap;&quot;&gt;&lt;b&gt;数据集/知识库&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-31" y="110" width="44.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1bvZFp07xVMngvULJLH7-16" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;dashed=0;strokeColor=#66CC00;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -143,8 +143,8 @@
             <mxPoint x="15" y="22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XGZ_MZIQOu7DSANiLTZk-32" value="&lt;font color=&quot;#717171&quot;&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap;&quot;&gt;&lt;b&gt;提示词&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="0.25" y="260" width="44.75" height="40" as="geometry" />
+        <mxCell id="XGZ_MZIQOu7DSANiLTZk-32" value="&lt;font color=&quot;#717171&quot;&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap;&quot;&gt;&lt;b&gt;提示词/Prompts&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-31" y="260" width="44.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XGZ_MZIQOu7DSANiLTZk-33" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;dashed=0;strokeColor=#333333;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
