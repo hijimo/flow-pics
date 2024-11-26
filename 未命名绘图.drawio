@@ -94,6 +94,18 @@
         <mxCell id="piFBQGrTHLJiZOmbsbd1-115" value="" style="fillColor=#CC4125;strokeColor=#660000" vertex="1" parent="1">
           <mxGeometry x="200" y="320.0042901234568" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="piFBQGrTHLJiZOmbsbd1-116" value="http request" style="edgeStyle=none;verticalLabelPosition=top;verticalAlign=bottom;dashed=1;startArrow=none;startFill=0;" edge="1" parent="1">
+          <mxGeometry x="385.45524691358025" y="113.91550925925924" width="100" height="100" as="geometry">
+            <mxPoint x="310" y="319.0056327160494" as="sourcePoint" />
+            <mxPoint x="420" y="319.0056327160494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="piFBQGrTHLJiZOmbsbd1-117" value="transfer request" style="edgeStyle=none;verticalLabelPosition=top;verticalAlign=bottom;dashed=1;startArrow=none;startFill=0;" edge="1" parent="1">
+          <mxGeometry x="385.45524691358025" y="113.91550925925924" width="100" height="100" as="geometry">
+            <mxPoint x="710" y="329.0056327160494" as="sourcePoint" />
+            <mxPoint x="820" y="329.0056327160494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
