@@ -1,17 +1,19 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2593" dy="1338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1803" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="p6Urf3MEFLr0cGMrv-g1-8" value="图片下载器" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="500" y="180" width="80" height="80" as="geometry" />
+        <mxCell id="p6Urf3MEFLr0cGMrv-g1-8" value="&lt;div&gt;客户端&lt;/div&gt;图片下载器" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="160" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p6Urf3MEFLr0cGMrv-g1-9" value="阿里云oss" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="50" width="120" height="80" as="geometry" />
+          <mxGeometry x="400" y="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="p6Urf3MEFLr0cGMrv-g1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p6Urf3MEFLr0cGMrv-g1-8" target="p6Urf3MEFLr0cGMrv-g1-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="p6Urf3MEFLr0cGMrv-g1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.058;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p6Urf3MEFLr0cGMrv-g1-8" target="p6Urf3MEFLr0cGMrv-g1-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="446" y="126" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="p6Urf3MEFLr0cGMrv-g1-18" value="上传" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p6Urf3MEFLr0cGMrv-g1-10">
           <mxGeometry x="-0.2514" y="1" relative="1" as="geometry">
@@ -20,11 +22,11 @@
         </mxCell>
         <mxCell id="p6Urf3MEFLr0cGMrv-g1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="385.9999999999998" y="100" as="sourcePoint" />
-            <mxPoint x="500" y="214" as="targetPoint" />
+            <mxPoint x="115.99999999999977" y="100" as="sourcePoint" />
+            <mxPoint x="230" y="214" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="380" y="100" />
-              <mxPoint x="380" y="214" />
+              <mxPoint x="110" y="100" />
+              <mxPoint x="110" y="214" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -34,7 +36,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p6Urf3MEFLr0cGMrv-g1-11" value="聚水潭grpc通道" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="50" width="120" height="80" as="geometry" />
+          <mxGeometry x="50" y="50" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p6Urf3MEFLr0cGMrv-g1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p6Urf3MEFLr0cGMrv-g1-14" target="p6Urf3MEFLr0cGMrv-g1-23">
           <mxGeometry relative="1" as="geometry" />
@@ -45,36 +47,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p6Urf3MEFLr0cGMrv-g1-14" value="聚协云服务端" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="350" y="504" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p6Urf3MEFLr0cGMrv-g1-15" value="阿里云oss" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="490" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p6Urf3MEFLr0cGMrv-g1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="p6Urf3MEFLr0cGMrv-g1-15" target="p6Urf3MEFLr0cGMrv-g1-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p6Urf3MEFLr0cGMrv-g1-20" value="每5分钟获取一次新图片列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p6Urf3MEFLr0cGMrv-g1-17">
-          <mxGeometry x="-0.341" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry x="710" y="165" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="p6Urf3MEFLr0cGMrv-g1-23" value="阿里云图片搜索" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="504" width="120" height="80" as="geometry" />
+          <mxGeometry x="685" y="380" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p6Urf3MEFLr0cGMrv-g1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="p6Urf3MEFLr0cGMrv-g1-26" target="p6Urf3MEFLr0cGMrv-g1-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p6Urf3MEFLr0cGMrv-g1-26" value="聚协云" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="70" y="760" width="80" height="80" as="geometry" />
+        <mxCell id="p6Urf3MEFLr0cGMrv-g1-33" value="图片搜索/返回数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p6Urf3MEFLr0cGMrv-g1-30">
+          <mxGeometry x="-0.3314" y="2" relative="1" as="geometry">
+            <mxPoint x="27" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6Urf3MEFLr0cGMrv-g1-26" value="网页" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="570" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p6Urf3MEFLr0cGMrv-g1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="p6Urf3MEFLr0cGMrv-g1-27" target="p6Urf3MEFLr0cGMrv-g1-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="p6Urf3MEFLr0cGMrv-g1-34" value="图片搜索/返回数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p6Urf3MEFLr0cGMrv-g1-29">
+          <mxGeometry x="-0.4071" y="-2" relative="1" as="geometry">
+            <mxPoint x="22" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="p6Urf3MEFLr0cGMrv-g1-27" value="聚协云服务端" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="340" y="760" width="80" height="80" as="geometry" />
+          <mxGeometry x="340" y="570" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p6Urf3MEFLr0cGMrv-g1-28" value="阿里云图片搜索" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="760" width="120" height="80" as="geometry" />
+          <mxGeometry x="580" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p6Urf3MEFLr0cGMrv-g1-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p6Urf3MEFLr0cGMrv-g1-14" target="p6Urf3MEFLr0cGMrv-g1-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="230" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
