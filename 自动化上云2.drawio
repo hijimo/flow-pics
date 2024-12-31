@@ -62,7 +62,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3Llb6DlofzivT68M9og8-16" value="客户端接收新、旧格式" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="640" y="520" width="80" height="115" as="geometry" />
+          <mxGeometry x="780" y="372.5" width="80" height="115" as="geometry" />
         </mxCell>
         <mxCell id="3Llb6DlofzivT68M9og8-18" value="服务器接收新格式" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="780" y="52.5" width="80" height="115" as="geometry" />
