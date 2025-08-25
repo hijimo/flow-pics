@@ -11,7 +11,7 @@
           <mxGeometry x="730" y="30" width="330" height="220" as="geometry" />
         </mxCell>
         <mxCell id="39150e848f15840c-3" value="聚协云客户端&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="370" y="410" width="270" height="200" as="geometry" />
+          <mxGeometry x="370" y="410" width="280" height="230" as="geometry" />
         </mxCell>
         <mxCell id="39150e848f15840c-8" value="添加自动化任务" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="760" y="70" width="110" height="50" as="geometry" />
@@ -79,6 +79,9 @@
         </mxCell>
         <mxCell id="SNhEaH1-k5YaDJULe84w-14" value="任务参数组装" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="500" y="510" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SNhEaH1-k5YaDJULe84w-15" value="任务执行" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="500" y="580" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
