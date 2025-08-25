@@ -50,7 +50,7 @@
           <mxGeometry x="500" y="510" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SNhEaH1-k5YaDJULe84w-15" value="任务执行" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="500" y="580" width="110" height="50" as="geometry" />
+          <mxGeometry x="380" y="570" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SNhEaH1-k5YaDJULe84w-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=115;exitDy=290;exitPerimeter=0;" edge="1" parent="1" source="SNhEaH1-k5YaDJULe84w-16" target="SNhEaH1-k5YaDJULe84w-18">
           <mxGeometry relative="1" as="geometry" />
@@ -117,7 +117,7 @@
         <mxCell id="SNhEaH1-k5YaDJULe84w-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.045;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SNhEaH1-k5YaDJULe84w-35" target="39150e848f15840c-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SNhEaH1-k5YaDJULe84w-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SNhEaH1-k5YaDJULe84w-38" target="SNhEaH1-k5YaDJULe84w-3">
+        <mxCell id="SNhEaH1-k5YaDJULe84w-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="SNhEaH1-k5YaDJULe84w-38" target="SNhEaH1-k5YaDJULe84w-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SNhEaH1-k5YaDJULe84w-40" value="第一次进入，如果本地有数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SNhEaH1-k5YaDJULe84w-39">
@@ -125,8 +125,26 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SNhEaH1-k5YaDJULe84w-38" value="&lt;br&gt;&lt;div&gt;同步组件&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="10" width="130" height="170" as="geometry" />
+        <mxCell id="SNhEaH1-k5YaDJULe84w-38" value="&lt;br&gt;&lt;div&gt;同步组件&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="10" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="SNhEaH1-k5YaDJULe84w-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=105;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="39150e848f15840c-8" target="39150e848f15840c-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="95" />
+              <mxPoint x="970" y="570" />
+              <mxPoint x="705" y="570" />
+              <mxPoint x="705" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SNhEaH1-k5YaDJULe84w-42" value="如果已上云，增删改查同时把数据同步到本地" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SNhEaH1-k5YaDJULe84w-41">
+          <mxGeometry x="0.517" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SNhEaH1-k5YaDJULe84w-43" value="云端调度数据转化本地" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="500" y="570" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
