@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="39150e848f15840c-1" value="本地数据库Sqlite3/单库/单表" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="50" y="40" width="330" height="220" as="geometry" />
-        </mxCell>
         <mxCell id="39150e848f15840c-2" value="RPA市场/旧任务调度页面" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="730" y="30" width="330" height="220" as="geometry" />
         </mxCell>
@@ -23,11 +20,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="39150e848f15840c-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontFamily=Verdana;fontSize=12;" parent="1" source="39150e848f15840c-3" target="39150e848f15840c-1" edge="1">
+        <mxCell id="39150e848f15840c-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontFamily=Verdana;fontSize=12;" parent="1" source="39150e848f15840c-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="285" y="485" />
             </Array>
+            <mxPoint x="285" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SNhEaH1-k5YaDJULe84w-1" value="删除自动化任务" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
@@ -38,18 +36,6 @@
         </mxCell>
         <mxCell id="SNhEaH1-k5YaDJULe84w-3" value="查询自动化任务" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="890" y="140" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="SNhEaH1-k5YaDJULe84w-4" value="增" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="60" y="100" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="SNhEaH1-k5YaDJULe84w-5" value="改" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="60" y="180" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="SNhEaH1-k5YaDJULe84w-6" value="查" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="230" y="180" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="SNhEaH1-k5YaDJULe84w-7" value="删" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="230" y="100" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SNhEaH1-k5YaDJULe84w-8" value="本地调度器&lt;br&gt;node-schedule" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="440" y="120" width="130" height="170" as="geometry" />
@@ -107,7 +93,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SNhEaH1-k5YaDJULe84w-21" value="消息服务器" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="970" width="130" height="170" as="geometry" />
+          <mxGeometry x="-420" y="940" width="130" height="170" as="geometry" />
         </mxCell>
         <mxCell id="SNhEaH1-k5YaDJULe84w-23" value="增" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="100" y="715" width="110" height="40" as="geometry" />
@@ -132,6 +118,9 @@
         </mxCell>
         <mxCell id="SNhEaH1-k5YaDJULe84w-27" value="查" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="100" y="853" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SNhEaH1-k5YaDJULe84w-29" value="&lt;span style=&quot;font-family: Verdana; text-align: left; text-wrap-mode: nowrap; text-decoration-line: underline;&quot;&gt;本地数据库Sqlite3&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; text-align: left; text-wrap-mode: nowrap; text-decoration-line: underline;&quot;&gt;/单库/单表&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="220" y="90" width="130" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
