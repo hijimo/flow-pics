@@ -51,7 +51,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cBUZ_2NVqSx4Mgd-lIPX-2" value="返回文件列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cBUZ_2NVqSx4Mgd-lIPX-1">
+        <mxCell id="cBUZ_2NVqSx4Mgd-lIPX-2" value="返回模板结构" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cBUZ_2NVqSx4Mgd-lIPX-1">
           <mxGeometry x="-0.1517" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
